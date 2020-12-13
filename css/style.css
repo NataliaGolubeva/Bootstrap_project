@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.navbar {
+  border-bottom: 1px solid lightgray;
+}
+
+button {
+  margin-bottom: 5px;
+}
+thead {
+  line-height: 40px;
+}
+.main-table {
+  margin-right: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+.aside tr {
+  line-height: 10px;
+}
+.card-body {
+  line-height: 1em;
+}
+.card-title {
+  line-height: 1em;
+  margin-top: 1em;
+  font-size: 14px;
+}
+.card-text {
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+.icon-star {
+  color: gold;
+}
+.icon-search {
+  margin-bottom: 3px;
+}
+.icon-star-empty {
+  color: grey;
+}
+.icon-star-empty:hover {
+  color: gold;
+}
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: #000;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
